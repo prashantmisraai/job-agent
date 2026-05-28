@@ -1,0 +1,72 @@
+<<TAILORED_RESUME>>
+PRASHANT KUMAR MISRA
+prashantmisraai@gmail.com  |  +91-9742516289  |  linkedin.com/in/prashant-misra02  |  github.com/prashantmisraai  |  prashant-portfolio.vercel.app  |  Bengaluru, India
+
+Professional Summary:
+As a seasoned Senior AI Engineer with 6+ years of experience in designing and shipping production-grade AI systems, I am excited to leverage my expertise in AI systems engineering to drive innovation at SAP. With a strong background in LLM architectures, Retrieval-Augmented Generation (RAG), and distributed backend engineering, I am confident in my ability to analyze complex problems, communicate effectively, and collaborate with cross-functional teams to deliver high-quality AI solutions.
+
+Core Technical Skills:
+AI / LLM: Large Language Models, RAG, Agentic AI, LangChain, LangGraph, LlamaIndex, HuggingFace, Prompt Engineering, LLM Evaluation, RAGAS
+ML / Data: Demand Forecasting, Time-Series (ARIMA, XGBoost, Prophet), NER, Embedding Models, FAISS, Pinecone, ChromaDB, Elasticsearch
+Backend: Python, Java, FastAPI, Spring Boot, RESTful APIs, Microservices, Distributed Systems, Event-Driven Architecture
+Cloud / DevOps: AWS (EC2, S3, Lambda, Bedrock, ECS, CloudWatch), Docker, Kubernetes, CI/CD (GitHub Actions), Monitoring & Observability, Airflow, Kubeflow
+Databases: PostgreSQL, MongoDB, Vector Databases (FAISS, Pinecone, ChromaDB), Redis
+
+Professional Experience:
+Senior AI Engineer   ·   Hitachi 	Oct 2024 – Present  ·  Bengaluru
+- Architected a production LLM-powered enterprise knowledge and search platform, serving 5,000+ internal users and enabling natural-language query over structured and unstructured enterprise data at scale.
+- Designed and implemented end-to-end RAG pipelines with custom re-ranking and context compression, resulting in a 35% improvement in retrieval accuracy over baseline BM25 retrieval.
+- Engineered a hallucination mitigation framework, combining grounding checks and factual consistency scoring, which reduced hallucination rates by 40% across production LLM responses.
+- Optimized API latency by 30% (1.2s → 840ms) through async batching, embedding cache layers, and ECS auto-scaling configuration.
+- Deployed AI microservices on AWS (ECS + Lambda) with auto-scaling, achieving 99.9% uptime across all production environments.
+
+Senior Software Engineer – AI   ·   Quantiphi Analytics	Jun 2023 – Oct 2024  ·  Bengaluru
+- Productionized 3 GenAI solutions across document processing, customer service automation, and knowledge management, improving workflow automation efficiency by 20% across client operations.
+- Designed an event-driven microservices architecture on AWS, scaling to 2× peak traffic (from 500 to 1,000 RPS) with zero SLA degradation.
+- Improved LLM response relevance by 40% by implementing hybrid retrieval (dense + sparse) and multi-stage re-ranking pipelines.
+- Led a 4-engineer cross-functional team, delivering GenAI features from architecture design through CI/CD deployment and production monitoring.
+
+Senior Software Engineer – AI & Backend   ·   Oracle.	Aug 2022 – Apr 2023  ·  Hyderabad
+- Built high-throughput ML data pipelines for enterprise healthcare clients, improving batch processing efficiency by 30% and reducing pipeline runtime from 8 hours to under 6 hours.
+- Integrated HL7/FHIR healthcare data standards across 5 enterprise systems, enhancing cross-system data reliability and interoperability by 20%.
+- Reduced production defects by 25% by establishing CI/CD best practices, code coverage gates, and automated regression suites.
+
+Technical Projects:
+Incident Commander Agent  —  Agentic AI / LangGraph / AWS  
+- Production-grade autonomous incident response agent using LangGraph multi-agent orchestration.
+- Modular agents/layer architecture with LangGraph state machine, integrating AWS CloudWatch, PagerDuty, and Slack; Dockerized FastAPI API gateway.
+
+Enterprise RAG Agent  —  Production RAG / LLM / Docker  
+- End-to-end production RAG system with full test coverage, data ingestion pipeline, Dockerized deployment, and FastAPI entrypoint.
+- Implements hybrid retrieval (dense + sparse), context compression, and re-ranking to maximize answer faithfulness on enterprise document corpora.
+
+Demand Forecasting Platform  —  Classical ML / Time-Series
+- Multi-model demand forecasting system using ARIMA, XGBoost, LightGBM, and Facebook Prophet for retail/supply-chain.
+
+Technical Writing:
+Published engineering blogs on medium/personal site, demonstrating depth in production AI systems, including "How I Built a Production RAG System", "Reducing Hallucinations in Enterprise AI", "LangGraph Multi-Agent Systems", and "Hybrid Retrieval Deep Dive".
+
+Education:
+B.Tech in Computer Science Engineering   ·   SRM University	2015 – 2019
+
+Certifications:
+AWS Certified Generative AI Developer (Professional)·  NVIDIA-Certified Professional (Generative AI LLMs)
+
+<<RESUME_SUMMARY>>
+As a seasoned Senior AI Engineer with 6+ years of experience in designing and shipping production-grade AI systems, I am excited to leverage my expertise in AI systems engineering to drive innovation at SAP. With a strong background in LLM architectures, Retrieval-Augmented Generation (RAG), and distributed backend engineering, I am confident in my ability to analyze complex problems, communicate effectively, and collaborate with cross-functional teams to deliver high-quality AI solutions.
+
+<<COVER_LETTER>>
+Dear Hiring Manager,
+
+I am excited to apply for the Senior AI Systems Engineer position at SAP, where I can utilize my expertise in AI systems engineering to drive innovation and deliver high-quality AI solutions. With 6+ years of experience in designing and shipping production-grade AI systems, I am confident in my ability to analyze complex problems, communicate effectively, and collaborate with cross-functional teams.
+
+As a seasoned Senior AI Engineer, I have a strong background in LLM architectures, Retrieval-Augmented Generation (RAG), and distributed backend engineering. My experience in architecting production LLM-powered enterprise knowledge and search platforms, designing end-to-end RAG pipelines, and engineering hallucination mitigation frameworks has equipped me with the skills to deliver high-quality AI solutions.
+
+I am particularly drawn to SAP's commitment to innovation and its focus on leveraging AI to drive business success. I am impressed by the company's efforts to develop and implement AI-powered solutions that can transform industries and improve people's lives.
+
+In addition to my technical expertise, I possess excellent communication and interpersonal skills, which have been demonstrated through my experience in leading cross-functional teams and collaborating with stakeholders to deliver AI solutions. I am excited about the opportunity to join SAP and contribute my skills and experience to the company's AI initiatives.
+
+Thank you for considering my application. I would welcome the opportunity to discuss my qualifications further and explore how I can contribute to SAP's success.
+
+Sincerely,
+Prashant Kumar Misra

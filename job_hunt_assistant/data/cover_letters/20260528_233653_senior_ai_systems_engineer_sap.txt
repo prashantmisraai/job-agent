@@ -1,0 +1,14 @@
+Dear Hiring Manager,
+
+I am excited to apply for the Senior AI Systems Engineer position at SAP, where I can utilize my expertise in AI systems engineering to drive innovation and deliver high-quality AI solutions. With 6+ years of experience in designing and shipping production-grade AI systems, I am confident in my ability to analyze complex problems, communicate effectively, and collaborate with cross-functional teams.
+
+As a seasoned Senior AI Engineer, I have a strong background in LLM architectures, Retrieval-Augmented Generation (RAG), and distributed backend engineering. My experience in architecting production LLM-powered enterprise knowledge and search platforms, designing end-to-end RAG pipelines, and engineering hallucination mitigation frameworks has equipped me with the skills to deliver high-quality AI solutions.
+
+I am particularly drawn to SAP's commitment to innovation and its focus on leveraging AI to drive business success. I am impressed by the company's efforts to develop and implement AI-powered solutions that can transform industries and improve people's lives.
+
+In addition to my technical expertise, I possess excellent communication and interpersonal skills, which have been demonstrated through my experience in leading cross-functional teams and collaborating with stakeholders to deliver AI solutions. I am excited about the opportunity to join SAP and contribute my skills and experience to the company's AI initiatives.
+
+Thank you for considering my application. I would welcome the opportunity to discuss my qualifications further and explore how I can contribute to SAP's success.
+
+Sincerely,
+Prashant Kumar Misra

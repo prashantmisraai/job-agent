@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am excited to apply for the Senior Software Engineer, Machine Learning - Search role at Roku, where I can leverage my expertise in Large Language Models, Retrieval-Augmented Generation, and distributed backend engineering to drive innovation in search functionality. With a strong background in machine learning, software engineering, and cloud computing, I am confident in my ability to make a significant impact at Roku.
+
+As a seasoned Senior AI Engineer, I have a proven track record of designing and deploying production-grade AI systems at enterprise scale. My experience in building and deploying AI-powered search platforms, improving retrieval accuracy, reducing hallucination, and optimizing latency, makes me a strong fit for this role. I am excited about the opportunity to work with a talented team of engineers and contribute to the development of innovative search solutions.
+
+I am particularly drawn to Roku's commitment to innovation and customer satisfaction. As someone who is passionate about using technology to drive business growth and improve user experience, I believe that I would thrive in Roku's dynamic and collaborative environment.
+
+Thank you for considering my application. I would welcome the opportunity to discuss my qualifications further and explore how I can contribute to the success of Roku.
+
+Sincerely,
+Prashant Kumar Misra

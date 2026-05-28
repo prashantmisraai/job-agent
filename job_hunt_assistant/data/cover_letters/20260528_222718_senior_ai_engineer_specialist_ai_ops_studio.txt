@@ -1,0 +1,6 @@
+Dear Hiring Manager,
+
+I am excited to apply for the Senior AI Engineer role at AI Ops Studio, where I can leverage my technical expertise and experience to drive business outcomes through AI solutions. With a strong background in LLM architectures, RAG, and distributed backend engineering, I am confident in my ability to communicate complex technical concepts to non-technical stakeholders and provide updates on project progress. My experience in analyzing data and AI models has equipped me with the skills to identify areas for improvement and optimize performance, and I am well-versed in creating and maintaining documentation of AI models, processes, and outcomes. I am impressed by AI Ops Studio's commitment to delivering innovative AI solutions and believe that my skills and experience make me a strong fit for this role. I would welcome the opportunity to discuss my application and how I can contribute to the success of AI Ops Studio.
+
+Sincerely,
+Prashant Kumar Misra

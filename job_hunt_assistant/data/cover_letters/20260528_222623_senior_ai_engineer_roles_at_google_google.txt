@@ -1,0 +1,6 @@
+Dear Hiring Manager,
+
+I am thrilled to apply for the Senior AI Engineer role at Google, where I can utilize my technical expertise and passion for artificial intelligence to drive innovation and growth. With a strong foundation in computer science and a proven track record of delivering production-grade AI systems, I am confident in my ability to make a meaningful contribution to Google's AI engineering team. My experience in designing and deploying LLM-powered enterprise knowledge and search platforms, as well as my expertise in RAG, Agentic AI, and distributed backend engineering, aligns perfectly with Google's focus on developing cutting-edge AI solutions. I am particularly drawn to Google's commitment to innovation, collaboration, and community, and I am excited about the opportunity to work with a talented team of engineers and researchers to push the boundaries of what is possible with AI. Thank you for considering my application. I would welcome the opportunity to discuss my qualifications further and explore how my skills and experience align with Google's goals and values.
+
+Sincerely,
+Prashant Kumar Misra

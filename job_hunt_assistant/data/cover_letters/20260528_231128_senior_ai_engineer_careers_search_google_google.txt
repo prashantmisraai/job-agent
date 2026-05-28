@@ -1,0 +1,12 @@
+Dear Hiring Manager,
+
+I am excited to apply for the role of optimizing career-site queries for Google, utilizing my expertise in AI, search algorithms, and optimization techniques. With 6+ years of experience in designing and shipping production-grade AI systems, I am confident in my ability to analyze and optimize career-site queries to improve job posting visibility.
+
+As a Senior AI Engineer, I have a proven track record of improving retrieval accuracy, reducing hallucination, and optimizing latency in production environments. My experience with Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) systems has equipped me with the skills to craft compelling job descriptions that are compatible with various ATS platforms.
+
+I am impressed by the company's commitment to utilizing cutting-edge technology to improve the candidate application experience. I am excited about the opportunity to collaborate with hiring teams to understand job requirements and create effective job descriptions that showcase the company's brand and values.
+
+Thank you for considering my application. I would welcome the opportunity to discuss my qualifications further and explore how I can contribute to the company's success.
+
+Sincerely,
+Prashant Kumar Misra

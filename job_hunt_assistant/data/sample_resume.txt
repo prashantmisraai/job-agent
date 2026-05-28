@@ -1,0 +1,64 @@
+PRASHANT KUMAR MISRA
+Senior AI Engineer  ·  Generative AI & LLM Systems  ·  Agentic AI  ·  Backend Infrastructure 
+prashantmisraai@gmail.com  |  9742516289  |  linkedin.com/in/prashant-misra02  |  github.com/prashantmisraai  |  prashant-portfolio.vercel.app
+
+PROFESSIONAL SUMMARY
+
+Senior AI Engineer with 6+ years designing and shipping production-grade AI systems at enterprise scale. Deep expertise in LLM architectures, Retrieval-Augmented Generation (RAG), Agentic AI, and distributed backend engineering. Built and deployed Incident Commander Agent (LangGraph multi-agent, AWS), Enterprise RAG Agent (end-to-end, Dockerized), and a Demand Forecasting platform using classical ML. Track record of 35% retrieval accuracy gains, 40% hallucination reduction, and 30% latency optimization in production. Strong in system design, microservices, MLOps, and cloud-native deployment on AWS.
+CORE TECHNICAL SKILLS
+
+AI / LLM	Large Language Models, RAG, Agentic AI, LangChain, LangGraph, LlamaIndex, HuggingFace, Prompt Engineering, LLM Evaluation
+ML / Data	Demand Forecasting, Time-Series (ARIMA, XGBoost, Prophet), NER, Embedding Models, FAISS, Pinecone, ChromaDB, Elasticsearch
+Backend	Python, Java, FastAPI, Spring Boot, RESTful APIs, Microservices, Distributed Systems, Event-Driven Architecture
+Cloud / DevOps	AWS (EC2, S3, Lambda, Bedrock), Docker, Kubernetes, CI/CD (GitHub Actions), Monitoring & Observability
+Databases	PostgreSQL, MongoDB, Vector Databases, Redis
+PROFESSIONAL EXPERIENCE
+
+Senior AI Engineer   ·   Hitachi Digital Services	Oct 2024 – Present  ·  Bengaluru
+▪	Architected production LLM-powered enterprise knowledge and search platform serving thousands of internal users, enabling natural-language query over structured and unstructured enterprise data.
+▪	Designed end-to-end RAG pipelines with custom re-ranking and context compression, achieving latency by 30%
+▪	Engineered hallucination mitigation framework combining grounding checks and factual consistency scoring, reducing hallucination rate by 25%
+▪	Cut P99 API latency by 35%
+▪	Deployed AI microservices on AWS (ECS + Lambda) with auto-scaling, achieving 99.9% uptime across all production environments.
+▪	Built LLM evaluation harnesses (RAGAS-inspired) for automated benchmarking of response quality, faithfulness, and answer relevance.
+Senior Software Engineer – AI   ·   Quantiphi Analytics	Jun 2023 – Oct 2024  ·  Mumbai
+▪	Productionized 3 GenAI solutions across document processing, customer service automation, and knowledge management, improving workflow automation efficiency by 20%
+▪	Designed event-driven microservices architecture on AWS that scaled to 2× peak traffic with zero SLA degradation.
+▪	Improved LLM response relevance by 40%
+▪	Led 4-engineer cross-functional team delivering GenAI features from architecture design through CI/CD deployment and production monitoring.
+▪	Introduced structured LLM evaluation pipelines (automated regression + human-in-the-loop) that cut production quality incidents by 35%.
+Senior Software Engineer – AI & Backend   ·   Marlabs Inc.	Aug 2022 – Apr 2023  ·  Hyderabad
+▪	Built high-throughput ML data pipelines for enterprise healthcare clients, improving batch processing efficiency by 38%
+▪	Integrated HL7/FHIR healthcare data standards across 5 enterprise systems, improving cross-system data reliability and interoperability by 20%.
+▪	Reduced production defects by 25% by establishing CI/CD best practices, code coverage gates, and automated regression suites.
+Software Engineer   ·   Capgemini	Jul 2019 – Aug 2022  ·  Pune
+▪	Built scalable Java/Spring Boot and FastAPI  backend systems across 10+ enterprise modules for global Fortune 500 clients.
+▪	Delivered ML-driven analytics integrations via robust REST APIs, enabling data-driven decision-making for client product teams.
+▪	Maintained 99.9% system uptime via proactive monitoring (CloudWatch, Splunk), automated alerting, and incident response runbooks.
+▪	Mentored 3 junior engineers; drove Agile delivery across distributed cross-geo squads.
+TECHNICAL PROJECTS
+
+Incident Commander Agent  —  Agentic AI / LangGraph / AWS   ↗ GitHub
+▪	Built a production-grade autonomous incident response agent using LangGraph multi-agent orchestration — agents triage, diagnose, notify, and remediate infrastructure incidents end-to-end without human intervention.
+▪	Architecture: modular agents/ layer (triage, root-cause, runbook), graph/ state machine (LangGraph), tools/ (AWS CloudWatch, PagerDuty, Slack integrations), Dockerized FastAPI API gateway.
+▪	Deployed on AWS with Docker + docker-compose; agent graph handles branching, retries, and graceful fallback to human escalation.
+▪	Stack: Python, LangGraph, LangChain, FastAPI, AWS SDK, Docker, Shell scripts for infra automation.
+Enterprise RAG Agent  —  Production RAG / LLM / Docker   ↗ GitHub
+▪	End-to-end production RAG system with full test coverage (tests/), data ingestion pipeline, Dockerized deployment, and a clean app.py FastAPI entrypoint.
+▪	Implements hybrid retrieval (dense + sparse), context compression, and re-ranking to maximize answer faithfulness on enterprise document corpora.
+▪	Designed for plug-and-play LLM backends (OpenAI, Bedrock, local models) via abstraction layer in src/.
+▪	Stack: Python, LangChain, FAISS/Pinecone, FastAPI, Docker, pytest.
+Demand Forecasting Platform  —  Classical ML / Time-Series   ·   Traditional ML
+▪	Built a multi-model demand forecasting system using ARIMA, XGBoost, LightGBM, and Facebook Prophet for retail/supply-chain use cases.
+▪	Implemented feature engineering pipeline: lag features, rolling statistics, seasonal decomposition, and external regressor integration.
+▪	Model selection framework benchmarks across RMSE, MAPE, and SMAPE; auto-selects best model per SKU/region segment.
+▪	Stack: Python, scikit-learn, XGBoost, Prophet, pandas, matplotlib, Jupyter.
+Named Entity Recognition (NER)  —  End-to-End NLP   ↗ GitHub
+▪	End-to-end NER pipeline (data prep → training → inference) in a single Jupyter notebook; covers tokenization, IOB tagging, and evaluation with seqeval metrics.
+▪	Stack: Python, HuggingFace Transformers, spaCy, Jupyter.
+EDUCATION
+
+B.Tech in Computer Science Engineering   ·   SRM University	2015 – 2019
+CERTIFICATIONS & ROLE TARGETS
+
+AWS Certified Machine Learning Specialty · Google Cloud Professional ML Engineer.   Open to: Senior AI Engineer · Staff AI Engineer · LLM Engineer · GenAI Engineer · Applied AI Engineer · ML Engineer · AI Backend Engineer · Senior Software Engineer (AI/ML).

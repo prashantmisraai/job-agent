@@ -1,0 +1,6 @@
+Dear Hiring Manager,
+
+I am excited to apply for the Senior Software Engineer, Machine Learning role at Roku, where I can leverage my expertise in AI engineering, machine learning, and software engineering to drive innovation and growth. With 6+ years of experience in designing and shipping production-grade AI systems, I am confident in my ability to make significant contributions to the Roku team. My experience in building and deploying large language models, RAG systems, and demand forecasting platforms has equipped me with a unique understanding of the complexities of AI engineering and the importance of cross-functional collaboration. I am impressed by Roku's commitment to delivering exceptional user experiences and its focus on leveraging AI and machine learning to drive business growth. I am excited about the opportunity to work with a talented team of engineers and contribute my skills and experience to help drive the company's success. Thank you for considering my application. I would welcome the opportunity to discuss my qualifications further and explore how I can contribute to the Roku team.
+
+Sincerely,
+Prashant Kumar Misra

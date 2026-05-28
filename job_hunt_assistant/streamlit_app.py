@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import sys
+from html import escape
 from pathlib import Path
 
 import streamlit as st
@@ -19,6 +20,7 @@ from job_hunt_assistant.utils.apply_assistant import (
     extract_candidate_fields,
     suggested_auto_apply_sites,
 )
+from job_hunt_assistant.utils.auth import logout_button, require_login
 from job_hunt_assistant.utils.resume_parser import extract_resume_text_from_upload
 from job_hunt_assistant.utils.scoring import score_jobs
 from job_hunt_assistant.utils.tracking import log_application
@@ -26,13 +28,34 @@ from job_hunt_assistant.utils.tracking import log_application
 
 st.set_page_config(page_title="AI Job Hunt Assistant", page_icon=":briefcase:", layout="wide")
 
-st.title("AI Job Hunt Assistant")
+current_user = require_login()
+
 st.markdown(
-    "Find jobs across portals and company career pages, score them against your resume, "
-    "then generate tailored application materials for the roles you select."
+    """
+    <style>
+    .block-container {padding-top: 1.6rem; padding-bottom: 3rem;}
+    [data-testid="stMetricValue"] {font-size: 1.35rem;}
+    [data-testid="stSidebar"] h2, [data-testid="stSidebar"] h3 {padding-top: .4rem;}
+    .app-kicker {color: #52796f; font-weight: 700; letter-spacing: .04em; text-transform: uppercase;}
+    .app-title {font-size: 2.2rem; line-height: 1.08; font-weight: 800; margin: .1rem 0 .4rem;}
+    .app-subtitle {color: #4b5563; font-size: 1.03rem; max-width: 820px;}
+    .soft-note {background: #f7faf9; border: 1px solid #dbe7e2; border-radius: 8px; padding: .75rem .9rem;}
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
+display_name = escape(current_user.display_name or current_user.username)
+st.markdown('<div class="app-kicker">Private beta</div>', unsafe_allow_html=True)
+st.markdown('<div class="app-title">AI Job Hunt Assistant</div>', unsafe_allow_html=True)
+st.markdown(
+    f'<div class="app-subtitle">Welcome, {display_name}. Find roles, score fit, generate tailored resumes and cover letters, then track every approved application from one focused workspace.</div>',
+    unsafe_allow_html=True,
 )
 
 with st.sidebar:
+    logout_button()
+    st.divider()
     st.header("Search")
     keyword = st.text_input("Job keyword", value="business analyst")
     location = st.text_input("Location", value="Remote")
@@ -50,15 +73,15 @@ with st.sidebar:
     )
     jobs_per_company = st.number_input("Career searches per company", min_value=1, max_value=3, value=2, step=1)
 
-    st.header("Specific Career-Page Job")
-    manual_job_title = st.text_input("Job title from career page", placeholder="Senior AI Engineer")
-    manual_company = st.text_input("Company from career page", placeholder="Google")
-    manual_job_url = st.text_input("Specific job apply URL", placeholder="https://.../jobs/...")
-    manual_job_description = st.text_area(
-        "Specific job description",
-        placeholder="Paste the real JD from the company career page here.",
-        height=120,
-    )
+    with st.expander("Paste a specific job", expanded=False):
+        manual_job_title = st.text_input("Job title from career page", placeholder="Senior AI Engineer")
+        manual_company = st.text_input("Company from career page", placeholder="Google")
+        manual_job_url = st.text_input("Specific job apply URL", placeholder="https://.../jobs/...")
+        manual_job_description = st.text_area(
+            "Specific job description",
+            placeholder="Paste the real JD from the company career page here.",
+            height=120,
+        )
 
     st.header("Candidate")
     uploaded_resume = st.file_uploader("Upload resume", type=["txt", "docx", "pdf"])
@@ -78,12 +101,23 @@ with st.sidebar:
         height=120,
     )
     st.header("Apply Assistant")
-    st.caption("Suggested assisted auto-fill sites: " + ", ".join(suggested_auto_apply_sites()))
+    st.caption("Assisted sites: " + ", ".join(suggested_auto_apply_sites()))
 
 if "jobs" not in st.session_state:
     st.session_state.jobs = []
 if "application_packages" not in st.session_state:
     st.session_state.application_packages = []
+
+metric_columns = st.columns(4)
+metric_columns[0].metric("Jobs in shortlist", len(st.session_state.jobs))
+metric_columns[1].metric("Packages created", len(st.session_state.application_packages))
+metric_columns[2].metric("Minimum score", f"{min_confidence}%")
+metric_columns[3].metric("Portal limits", int(linkedin_limit + naukri_limit + hirist_limit))
+
+st.markdown(
+    '<div class="soft-note">Start with one focused keyword and a real resume. Keep source limits modest, then paste a specific company JD when you want the strongest resume and cover letter output.</div>',
+    unsafe_allow_html=True,
+)
 
 if st.button("Fetch and Score Jobs", type="primary"):
     companies = [
